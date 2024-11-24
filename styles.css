@@ -15980,10 +15980,9 @@ html {
   flex-wrap: wrap
 }
 
-.filters-cat-buttons-wrap>div {
+.filters-cat-buttons-wrap>a {
   Flex: 1
 }
-
 .filters-cat-buttons-wrap .filters-cat__button {
   background: var(--rgb-255-06);
   color: var(--c-A7);
@@ -98315,4 +98314,19 @@ td:focus {
   -webkit-transition: fill 0.3s;
   transition: fill 0.3s;
   transform: translate3d(0, 0, 0);
+  
+}
+#search svg{ 
+  width:32px;
+  height:32px;
+}
+.filters-cat-buttons-wrap a {
+  text-decoration: none; /* Убирает подчеркивание */
+  display: inline-block; /* Дает блочным кнопкам внутри ссылок корректное поведение */
+}
+
+.filters-cat-buttons-wrap a:hover .filters-cat__button {
+  /* Наследует стили при наведении на ссылку */
+  background: var(--rgb-255-16);
+  color: var(--c-FF);
 }

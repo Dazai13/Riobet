@@ -91,3 +91,4 @@ loadSVG('img/itemcoin2.svg', 'itemcoin2');
 loadSVG('img/itemcoin3.svg', 'itemcoin3');
 loadSVG('img/helper.svg', 'helper');
 loadSVG('img/helper.svg', 'helper1');
+loadSVG('img/arrow.svg', 'arrownone');

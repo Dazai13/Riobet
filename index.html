@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="mobily.css">
 </head>
 
-<body class = "init-util">
+<body class="init-util">
     <div class="page-wrapper">
         <div class="page-body">
             <div class="js-header header bg-rgb-14-7 bg-blur" id="header">
@@ -17,19 +17,23 @@
                     <div class="header-item js-header-left-sidebar-wrapper">
                         <div>
                             <div class="header-menu js-show-left-sidebar">
-                                
+
                                 <div class="badge-digit js-quest-badge" style="display: none;"></div>
-                                <div class="header-menu-svg">
-                                    <div id="bruger"></div>
-                                </div>
-                                
+                                <a href="#">
+
+                                    <div id="bruger" class="header-menu-svg">
+
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="header-search js-open-quick-search">
-                        <div id = 'search'></div>
-                    </div>
+                    <a href="#">
+                        <div id='search' class="header-search js-open-quick-search">
+                        </div>
+                    </a>
                     <div class="header-search-sidebar bg-12">
+
                         <div class="header-search-sidebar_header">
                             <div class="filters__search">
                                 <div class="filters__search-close js-close-quick-search">
@@ -54,41 +58,49 @@
                     </div>
                     <div class="header-item">
                         <a class="header-logo header-logo__desc" href="#">
-                            <div id = "logo"></div>
+                            <div id="logo"></div>
                         </a>
                     </div>
                     <div class="header-item">
                         <div class="header-account">
                             <!--Для не зарегистрированных показываем кнопки-->
-                            <button class="button button_dark js-button js-login" type="button">
-                                <div class="button__area"></div>
-                                <div class="button__border"></div>
-                                <span class="button__text">Вход</span>
-                            </button>
-                            <button class="button js-button button_major js-registration" type="button">
-                                <div class="button__area"></div>
-                                <div class="button__border"></div>
-                                <span class="button__text">Регистрация</span>
-                            </button>
+                            <a href="#">
+                                <button class="button button_dark js-button js-login" type="button">
+                                    <div class="button__area"></div>
+                                    <div class="button__border"></div>
+                                    <span class="button__text">Вход</span>
+                                </button>
+                            </a>
+                            <a href="#">
+                                <button class="button js-button button_major js-registration" type="button">
+                                    <div class="button__area"></div>
+                                    <div class="button__border"></div>
+                                    <span class="button__text">Регистрация</span>
+                                </button>
+                            </a>
                             <div class="header-logo-and-menu-sidebar-shadow"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="js-header-login-buttons enter-and-reg"><div class="flex"><div class="flex__item">
-                <button class="button button_dark js-button js-login" type="button">
-                    <div class="button__area"></div>
-                    <div class="button__border"></div>
-                    <span class="button__text">Вход</span>
-                </button>
+            <div class="js-header-login-buttons enter-and-reg">
+                <div class="flex">
+                    <div class="flex__item">
+                        <button class="button button_dark js-button js-login" type="button">
+                            <div class="button__area"></div>
+                            <div class="button__border"></div>
+                            <span class="button__text">Вход</span>
+                        </button>
+                    </div>
+                    <div class="flex__item">
+                        <button class="button js-button button_major js-registration" type="button">
+                            <div class="button__area"></div>
+                            <div class="button__border"></div>
+                            <span class="button__text">Регистрация</span>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="flex__item">
-                <button class="button js-button button_major js-registration" type="button">
-                    <div class="button__area"></div>
-                    <div class="button__border"></div>
-                    <span class="button__text">Регистрация</span>
-                </button>
-            </div></div></div>
             <div class="top-menu">
                 <div class="menu">
                     <a href="#" class="ten-years-block ten-years-block_menu">
@@ -115,7 +127,7 @@
                     <a class="menu__item js-menu-item " href="#">
                         <div class="menu__item-icon">
                             <div id="lc"></div>
-                        </div>  
+                        </div>
                         <div class="menu__item-text">Live casino</div>
                     </a>
                     <a class="menu__item js-menu-item " href="#">
@@ -152,88 +164,93 @@
                 <div class="js-slider content-nopad">
                     <div class="slider-panel">
                         <div class="slider-overflow">
-                            <div  class="new-slider slick-initialized slick-slider"><button id = "prev" class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+                            <div class="new-slider slick-initialized slick-slider">
+                                <button id="prev" class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
                                 <a href="#">
-                                <div class="slick-list draggable">
-                                    <div id="slider"  class="slick-track" style="opacity: 1; width: 12144px; transform: translate3d(-564px);">
-                                        <div id = 'slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(90deg, rgba(255, 174, 0, 0) 23.99%, rgb(246, 192, 1) 86.92%, rgba(0, 112, 0, 0) 110.55%), linear-gradient(90deg, rgb(1, 29, 8) 0%, rgba(3, 47, 14, 0.81) 32.4%, rgba(10, 115, 36, 0.1) 71.9%, rgba(0, 38, 9, 0) 100%), linear-gradient(179deg, rgb(15, 242, 55) 1.15%, rgb(12, 64, 0) 89.56%); " aria-hidden="true" >
-                                            <div class="new-slider-item_providers">
+                                    <div class="slick-list draggable">
+                                        <div id="slider" class="slick-track" style="opacity: 1; width: 12144px; transform: translate3d(-564px);">
+                                            <div id='slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(90deg, rgba(255, 174, 0, 0) 23.99%, rgb(246, 192, 1) 86.92%, rgba(0, 112, 0, 0) 110.55%), linear-gradient(90deg, rgb(1, 29, 8) 0%, rgba(3, 47, 14, 0.81) 32.4%, rgba(10, 115, 36, 0.1) 71.9%, rgba(0, 38, 9, 0) 100%), linear-gradient(179deg, rgb(15, 242, 55) 1.15%, rgb(12, 64, 0) 89.56%); "
+                                            aria-hidden="true">
+                                                <div class="new-slider-item_providers">
+                                                </div>
+                                                <div class="new-slider-item_namegame">
+                                                    <img src="img/10ymtextru.png" alt="">
+                                                </div>
+                                                <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
+                                                    <div class="button__area"></div>
+                                                    <div class="button__border"></div>
+                                                    <span class="button__text">Я в игре!</span>
+                                                </button>
+                                                <div class="new-slider-item_img js-banner-image">
+                                                    <img src="img/10ymchar.png" alt="">
+                                                </div>
                                             </div>
-                                            <div class="new-slider-item_namegame">
-                                                <img src="img/10ymtextru.png" alt="">
+                                            <div id='slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(rgba(255, 0, 230, 0) 0%, rgb(44, 0, 61) 100%), linear-gradient(270deg, rgb(0, 50, 142) 0%, rgb(71, 235, 197) 14.95%, rgb(21, 0, 142) 100%); "
+                                            aria-hidden="true" tabindex="-1">
+                                                <div class="new-slider-item_providers">
+                                                </div>
+                                                <div class="new-slider-item_namegame">
+                                                    <img alt="" data-image-loading="" src="img/crypto-cookies-text-ru.png">
+                                                </div>
+                                                <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
+                                                    <div class="button__area"></div>
+                                                    <div class="button__border"></div>
+                                                    <span class="button__text">получить</span>
+                                                </button>
+                                                <div class="new-slider-item_img js-banner-image">
+                                                    <img alt="" data-image-loading="" src="img/crypto-cookies-char.png">
+                                                </div>
                                             </div>
-                                            <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
-                                                <div class="button__area"></div>
-                                                <div class="button__border"></div>
-                                                <span class="button__text">Я в игре!</span>
-                                            </button>
-                                            <div class="new-slider-item_img js-banner-image">
-                                                <img src="img/10ymchar.png" alt="">
+                                            <div id='slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(84deg, rgb(0, 29, 8) 8.65%, rgb(0, 29, 8) 23.87%, rgb(0, 69, 19) 39.1%, rgb(0, 42, 12) 54.32%, rgb(0, 39, 11) 69.55%, rgb(1, 58, 17) 84.77%, rgb(0, 29, 8) 100%); "
+                                            aria-hidden="true">
+                                                <div class="new-slider-item_providers">
+                                                </div>
+                                                <div class="new-slider-item_namegame">
+                                                    <img alt="" data-image-loading="" src="img/sporttextru.png">
+                                                </div>
+                                                <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
+                                                    <div class="button__area"></div>
+                                                    <div class="button__border"></div>
+                                                    <span class="button__text">Начать</span>
+                                                </button>
+                                                <div class="new-slider-item_img js-banner-image">
+                                                    <img alt="" data-image-loading="" src="img/sportchar.png">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div id = 'slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(rgba(255, 0, 230, 0) 0%, rgb(44, 0, 61) 100%), linear-gradient(270deg, rgb(0, 50, 142) 0%, rgb(71, 235, 197) 14.95%, rgb(21, 0, 142) 100%); "aria-hidden="true" tabindex="-1">
-                                            <div class="new-slider-item_providers">
+                                            <div id='slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(93deg, rgb(1, 29, 8) 0%, rgb(3, 49, 14) 35%, rgb(5, 80, 23) 54%, rgb(10, 115, 36) 72%, rgb(0, 38, 9) 100%);  ">
+                                                <div class="new-slider-item_providers">
+                                                </div>
+                                                <div class="new-slider-item_namegame">
+                                                    <img alt="" data-image-loading="" src="img/bonus225rutext.png">
+                                                </div>
+                                                <button class="button js-button button_major js-slider-button" type="button" tabindex="0">
+                                                    <div class="button__area"></div>
+                                                    <div class="button__border"></div>
+                                                    <span class="button__text">получить</span>
+                                                </button>
+                                                <div class="new-slider-item_img js-banner-image">
+                                                    <img alt="" data-image-loading="" src="img/depositbonchar.png">
+                                                </div>
                                             </div>
-                                            <div class="new-slider-item_namegame">
-                                                <img alt="" data-image-loading="" src="img/crypto-cookies-text-ru.png">
-                                            </div>
-                                            <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
-                                                <div class="button__area"></div>
-                                                <div class="button__border"></div>
-                                                <span class="button__text">получить</span>
-                                            </button>
-                                            <div class="new-slider-item_img js-banner-image">
-                                                <img  alt="" data-image-loading="" src="img/crypto-cookies-char.png">
-                                            </div>
-                                        </div>
-                                        <div id = 'slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(84deg, rgb(0, 29, 8) 8.65%, rgb(0, 29, 8) 23.87%, rgb(0, 69, 19) 39.1%, rgb(0, 42, 12) 54.32%, rgb(0, 39, 11) 69.55%, rgb(1, 58, 17) 84.77%, rgb(0, 29, 8) 100%); "  aria-hidden="true" >
-                                            <div class="new-slider-item_providers">
-                                            </div>
-                                            <div class="new-slider-item_namegame">
-                                                <img  alt="" data-image-loading="" src="img/sporttextru.png">
-                                            </div>
-                                            <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
-                                                <div class="button__area"></div>
-                                                <div class="button__border"></div>
-                                                <span class="button__text">Начать</span>
-                                            </button>
-                                            <div class="new-slider-item_img js-banner-image">
-                                                <img alt="" data-image-loading="" src="img/sportchar.png">
-                                            </div>
-                                        </div>
-                                        <div id = 'slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style="background: linear-gradient(93deg, rgb(1, 29, 8) 0%, rgb(3, 49, 14) 35%, rgb(5, 80, 23) 54%, rgb(10, 115, 36) 72%, rgb(0, 38, 9) 100%);  ">
-                                            <div class="new-slider-item_providers">
-                                            </div>
-                                            <div class="new-slider-item_namegame">
-                                                <img alt="" data-image-loading="" src="img/bonus225rutext.png">
-                                            </div>
-                                            <button class="button js-button button_major js-slider-button" type="button" tabindex="0">
-                                                <div class="button__area"></div>
-                                                <div class="button__border"></div>
-                                                <span class="button__text">получить</span>
-                                            </button>
-                                            <div class="new-slider-item_img js-banner-image">
-                                                <img alt="" data-image-loading="" src="img/depositbonchar.png">
-                                            </div>
-                                        </div>
-                                        <div id = 'slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style=" background: linear-gradient(128deg, rgb(1, 29, 8) 0%, rgb(3, 49, 14) 35.42%, rgb(5, 80, 23) 53.65%, rgb(10, 115, 36) 71.9%, rgb(0, 38, 9) 100%); "  aria-hidden="true" >
-                                            <div class="new-slider-item_providers">
-                                            </div>
-                                            <div class="new-slider-item_namegame">
-                                                <img src="img/70frrutext.png" alt="">
-                                            </div>
-                                            <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
-                                                <div class="button__area"></div>
-                                                <div class="button__border"></div>
-                                                <span class="button__text">получить</span>
-                                            </button>
-                                            <div class="new-slider-item_img js-banner-image">
-                                                <img src="img/freecharru.png" alt="">
+                                            <div id='slide' class="new-slider-item js-slider-item new-slider-item__tour slick-slide" style=" background: linear-gradient(128deg, rgb(1, 29, 8) 0%, rgb(3, 49, 14) 35.42%, rgb(5, 80, 23) 53.65%, rgb(10, 115, 36) 71.9%, rgb(0, 38, 9) 100%); " aria-hidden="true">
+                                                <div class="new-slider-item_providers">
+                                                </div>
+                                                <div class="new-slider-item_namegame">
+                                                    <img src="img/70frrutext.png" alt="">
+                                                </div>
+                                                <button class="button js-button button_major js-slider-button" type="button" tabindex="-1">
+                                                    <div class="button__area"></div>
+                                                    <div class="button__border"></div>
+                                                    <span class="button__text">получить</span>
+                                                </button>
+                                                <div class="new-slider-item_img js-banner-image">
+                                                    <img src="img/freecharru.png" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div></a>
-                                <button id = "next" class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>
+                                </a>
+                                <button id="next" class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>
                             </div>
                         </div>
                         <div class="panel-info bg-rgb-255-04 bg-blur br-w br-s-s br-c-rgb-04 js-info-block">
@@ -294,11 +311,13 @@
                                     <h2 class="f-huge headline-text c-pointer js-show-all-games">Топ игры<a class="f-16 link headline-amount" href="#">все 11000+</a></h2>
                                 </div>
                                 <div class="filters__prod js-select-provider select-producer">
-                                    <button class="button_svg bg-rgb-255-06 br-w-2 br-s-s br-c-3B-hover js-all-providers-popup" type="button">
-                                        <div class="js-chosen-provider-image select-image" style="display:none;"></div>
-                                        <a href="#"><span class="select-text js-chosen-provider">Провайдер</span></a>
-                                        <div style = "display: flex; align-items: center;" id="prov"></div>
-                                    </button>
+                                    <a href="#">
+                                        <button class="button_svg bg-rgb-255-06 br-w-2 br-s-s br-c-3B-hover js-all-providers-popup" type="button">
+                                            <div class="js-chosen-provider-image select-image" style="display:none;"></div>
+                                            <span class="select-text js-chosen-provider">Провайдер</span>
+                                            <div style="display: flex; align-items: center;" id="prov"></div>
+                                        </button>
+                                    </a>
                                 </div>
                                 <div class="filters__search">
                                     <div class="filters__search-input">
@@ -313,11 +332,13 @@
                                     </div>
                                 </div>
                                 <div class="filters__cats js-select-category">
-                                    <div class="select js-select"><a class="select__modal-link js-modal-open" href="#"></a>
+                                    <div class="select js-select">
+                                        <a class="select__modal-link js-modal-open" href="#"></a>
                                         <div class="modal" id="modal-full">
                                             <div class="modal-group">
                                                 <div class="modal-sticky">
-                                                    <div class="modal-headline"><span class="modal-headline-text">Категория</span><a class="modal-headline-close js-close-modal" href="#"></div>
+                                                    <div class="modal-headline"><span class="modal-headline-text">Категория</span>
+                                                        <a class="modal-headline-close js-close-modal" href="#"></div>
                                                 </div>
                                                 <div class="modal-item">
                                                     <a href="#" class="modal-item-link">
@@ -339,7 +360,7 @@
                                                         <span class="font_text_regular f-reg modal-item-text">Эксклюзивные</span>
                                                     </a>
                                                 </div>
-                                                <div class="modal-item"> 
+                                                <div class="modal-item">
                                                     <a href="#" class="modal-item-link">
                                                         <span class="font_text_regular f-reg modal-item-text">Пререлиз</span>
                                                     </a>
@@ -436,103 +457,107 @@
                                             <option value="16" data-select2-id="40">Топ провайдеры</option>
                                             <option value="17" data-select2-id="41">Игры месяца</option>
                                             <option value="18" data-select2-id="42">LIVE Казино</option>
-                                        </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="43" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-modal-full-80-container"><span class="select2-selection__rendered" id="select2-modal-full-80-container" role="textbox" aria-readonly="true" title="Любая категория">Категория</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                        </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="43" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-modal-full-80-container"><span class="select2-selection__rendered" id="select2-modal-full-80-container" role="textbox" aria-readonly="true" title="Любая категория">Категория</span>
+                                        <span
+                                        class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                                            </span>
+                                            </span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="filters-cat-buttons-wrap filters-cat-buttons-wrap_main-page flex flex_start js-select-category-tag">
-                                <div class="
-                        filters-cat__button
-                            filters-cat__button_active
-                        " data-value="0">
-                                    Любая категория
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="2">
-                                    Новые
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="3">
-                                    Эксклюзивные
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="4">
-                                    Пререлиз
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="5">
-                                    Популярные
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="6">
-                                    Крипто игры
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="7">
-                                    Джекпоты
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="8">
-                                    Низкие ставки
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="9">
-                                    Отыгрывание бонуса
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="10">
-                                    Брендированные игры
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="12">
-                                    По игровым механикам
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="13">
-                                    Столы
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="14">
-                                    По волатильности
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="15">
-                                    По тематике
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="16">
-                                    Топ провайдеры
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="17">
-                                    Игры месяца
-                                </div>
-                                <div class="
-                        filters-cat__button
-                        " data-value="18">
-                                    LIVE Казино
-                                </div>
+                                <a href="#">
+                                    <div class="filters-cat__button filters-cat__button_active" data-value="0">
+                                        Любая категория
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="2">
+                                        Новые
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="3">
+                                        Эксклюзивные
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="4">
+                                        Пререлиз
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="5">
+                                        Популярные
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="6">
+                                        Крипто игры
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="7">
+                                        Джекпоты
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="8">
+                                        Низкие ставки
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="9">
+                                        Отыгрывание бонуса
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="10">
+                                        Брендированные игры
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="12">
+                                        По игровым механикам
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="13">
+                                        Столы
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="14">
+                                        По волатильности
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="15">
+                                        По тематике
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="16">
+                                        Топ провайдеры
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="17">
+                                        Игры месяца
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="filters-cat__button" data-value="18">
+                                        LIVE Казино
+                                    </div>
+                                </a>
                             </div>
+
                             <div class="headline-br headline-br-full mar-t-dbl"></div>
                             <div class="games-list games-popular js-main-page-games games-list_col-5">
                                 <div>
-                                    <div id = "game-list" class="games-list-wrap js-game-list" style="height: 1044px;">
+                                    <div id="game-list" class="games-list-wrap js-game-list" style="height: 1044px;">
                                         <div class="game-item" style="width: 259px; height: 174px;">
                                             <div class="game-item__img">
                                                 <img alt="" style="" src="img/crowncoins_icon.jpg">
@@ -546,23 +571,24 @@
                                                 <div class="sm-icon-endorphinad"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id="play"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -579,23 +605,24 @@
                                                 <div class="sm-icon-amatic"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play1"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play1"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information1"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like1"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information1"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like1"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -613,23 +640,24 @@
                                                 <div class="sm-icon-evoplay"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play2"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play2"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information2"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like2"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information2"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like2"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -646,23 +674,24 @@
                                                 <div class="sm-icon-endorphinad"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play3"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play3"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information3"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like3"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information3"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like3"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -679,23 +708,24 @@
                                                 <div class="sm-icon-onlyplay"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play4"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play4"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information4"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like4"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information4"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like4"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -712,23 +742,24 @@
                                                 <div class="sm-icon-nolimitcity"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play5"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play5"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information5"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like5"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information5"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like5"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -748,23 +779,24 @@
                                                 <div class="sm-icon-cup"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play6"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play6"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information6"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like6"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information6"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like6"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -782,22 +814,23 @@
                                                 <div class="sm-icon-hacksaw"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div id ="play7"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div id="play7"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information7"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like7"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information7"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like7"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -817,23 +850,24 @@
                                                 <div class="sm-icon-cup"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play8"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play8"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information8"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like8"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information8"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like8"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -850,23 +884,24 @@
                                                 <div class="sm-icon-nolimitcity"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play9"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play9"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information9"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like9"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information9"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like9"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -883,23 +918,24 @@
                                                 <div class="sm-icon-belatra"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play10"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play10"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information10"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like10"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information10"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like10"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -916,23 +952,24 @@
                                                 <div class="sm-icon-endorphinad"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play11"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play11"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information11"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like11"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information11"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like11"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -953,23 +990,24 @@
                                                 <div class="sm-icon-egt"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play12"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play12"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information12"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like12"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information12"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like12"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -989,23 +1027,24 @@
                                                 <div class="sm-icon-cup"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play13"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play13"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information13"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like13"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information13"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like13"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -1022,23 +1061,24 @@
                                                 <div class="sm-icon-novomatic"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play14"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play14"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information14"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like14"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information14"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like14"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -1055,23 +1095,24 @@
                                                 <div class="sm-icon-spinomenal"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play15"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play15"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information15"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like15"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information15"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like15"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -1088,23 +1129,24 @@
                                                 <div class="sm-icon-pgsoft"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play16"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play16"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information16"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like16"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information16"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like16"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -1121,23 +1163,24 @@
                                                 <div class="sm-icon-hacksaw"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play17"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play17"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information17"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like17"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information17"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like17"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="game-item" style="width: 259px; height: 174px;">
@@ -1157,66 +1200,66 @@
                                                 <div class="sm-icon-cup"></div>
                                             </div>
                                             <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play18"></div>
-                                                        </button>
+                                                <a href="#" class="game-hover__link">
+                                                    <div class="game-hover__play">
+                                                        <div class="game-hover__play-wrap">
+                                                            <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                <div class="button__area"></div>
+                                                                <div class="button__border"></div>
+                                                                <div class="button__loader"></div>
+                                                                <div id="play18"></div>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information18"></div>
-                                                </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like18"></div>
-                                                </div>
+                                                    <div class="game-hover__stats js-show-game-stats">
+                                                        <div id="information18"></div>
+                                                    </div>
+                                                    <div class="game-hover__favorite js-favorite-button">
+                                                        <div id="like18"></div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
-                                        <div id = "game-item_none" class="game-item game-item_show-more js-trigger-more" style="width: 259px; height: 174px;">
-                                            <div class="game-item_more-button c-pointer js-show-more-cover">
-                                                <span class="f-16">Показать еще
-                                                    <svg>
-                                                        <use xlink:href="#ei_arrow-right">
-                                                            <symbol viewBox="0 0 50 36" id="ei_arrow-right" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#cla)"><path d="M8.4 18c0-9.4 7.6-17 17-17s17 7.6 17 17-7.6 17-17 17-17-7.6-17-17zm32 0c0-8.3-6.7-15-15-15s-15 6.7-15 15 6.7 15 15 15 15-6.7 15-15z"></path><path d="M15.7 17.7l1.4-1.4 8.3 8.3 8.3-8.3 1.4 1.4-9.7 9.7-9.7-9.7z"></path><path d="M26.4 9v17h-2V9h2z"></path></g><defs><clipPath id="cla"><path fill="#fff" transform="rotate(90 24.75 25.25)" d="M0 0h35v50H0z"></path></clipPath></defs></symbol>
-                                                        </use>
-                                                    </svg>
+                                        <div id="game-item_none" class="game-item game-item_show-more js-trigger-more" style="width: 259px; height: 174px;">
+                                            <a href="#">
+                                                <div class="game-item_more-button c-pointer js-show-more-cover">
+                                                    <span class="f-16">Показать еще
+                                                    <div id="arrownone"></div>
                                                 </span>
-                                            </div>
-                                            <div class="game-item__img">
-
-                                                <img alt="" style="" src="img/Hex-icon.jpg">
-                                            </div>
-                                            <div class="flex">
-                                                <div class="game-item__new-and__bet">
                                                 </div>
+                                                <div class="game-item__img">
 
-                                            </div>
-                                            <div class="game-item__producer">
-                                                <div class="sm-icon-endorphinad"></div>
-                                            </div>
-                                            <div class="game-hover">
-                                                <a class="game-hover__link"></a>
-                                                <div class="game-hover__play">
-                                                    <div class="game-hover__play-wrap">
-                                                        <button class="button js-button button_major button_loading js-play-button" type="button">
-                                                            <div class="button__area"></div>
-                                                            <div class="button__border"></div>
-                                                            <div class="button__loader"></div>
-                                                            <div id ="play19"></div>
-                                                        </button>
+                                                    <img alt="" style="" src="img/Hex-icon.jpg">
+                                                </div>
+                                                <div class="flex">
+                                                    <div class="game-item__new-and__bet">
                                                     </div>
+
                                                 </div>
-                                                <div class="game-hover__stats js-show-game-stats">
-                                                    <div id="information19"></div>
+                                                <div class="game-item__producer">
+                                                    <div class="sm-icon-endorphinad"></div>
                                                 </div>
-                                                <div class="game-hover__favorite js-favorite-button">
-                                                    <div id="like19"></div>
+                                                <div class="game-hover">
+                                                    <a href="#" class="game-hover__link">
+                                                        <div class="game-hover__play">
+                                                            <div class="game-hover__play-wrap">
+                                                                <button class="button js-button button_major button_loading js-play-button" type="button">
+                                                                    <div class="button__area"></div>
+                                                                    <div class="button__border"></div>
+                                                                    <div class="button__loader"></div>
+                                                                    <div id="play19"></div>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="game-hover__stats js-show-game-stats">
+                                                            <div id="information19"></div>
+                                                        </div>
+                                                        <div class="game-hover__favorite js-favorite-button">
+                                                            <div id="like19"></div>
+                                                        </div>
+                                                    </a>
                                                 </div>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -1363,7 +1406,7 @@
                                 <div class="footer-info">
                                     <div class="footer-logo">
                                         <a class="header-logo header-logo__desc" href="#">
-                                            <div id = "logo1"></div>
+                                            <div id="logo1"></div>
                                         </a>
                                     </div>
                                     <div class="footer-license">
@@ -1405,19 +1448,13 @@
                                     </div>
                                     <div class="footer-select js-select-language pad-b-dbl">
                                         <a href="#">
-                                        <button style = "display: flex; flex-direction: row; align-items: center;" class="button js-button button_major js-support-button" type="button">
-                                            <div class="button__area"></div>
-                                            <div class="button__border"></div>
-                                            <div id="helper"></div>
-                                            <span class="button__text">24/7 Поддержка</span>
-                                        </button></a>
-                                        <a href="#">
-                                            <button style = "display: flex; flex-direction: row; align-items: center;" class="button js-button button_major js-support-button" type="button">
+                                            <button style="display: flex; flex-direction: row; align-items: center;" class="button js-button button_major js-support-button" type="button">
                                                 <div class="button__area"></div>
                                                 <div class="button__border"></div>
-                                                <div id="helper1"></div>
+                                                <div id="helper"></div>
                                                 <span class="button__text">24/7 Поддержка</span>
-                                            </button></a>
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="footer-links">
@@ -1450,19 +1487,19 @@
                                 </div>
                                 <div class="footer-social">
                                     <div class="footer-social__items">
-                                        <a href = "#" class="footer-social__item relative js-open-tg-chat">
+                                        <a href="#" class="footer-social__item relative js-open-tg-chat">
                                             <img class="icon-social-tgchat" data-src-dark="/img/items/social/social-tgchat.svg" data-src-light="/img/items/social/social-tgchat_light-theme.svg" src="img/social-tgchat.svg">
                                         </a>
-                                        <a href = "#" class="footer-social__item relative js-open-social" data-network="vk">
+                                        <a href="#" class="footer-social__item relative js-open-social" data-network="vk">
                                             <img data-src-dark="https://rb-image.com/files/social/dark/social-vk.svg" data-src-light="https://rb-image.com/files/social/light/social-vk_light-theme.svg" src="img/social-vk.svg">
                                         </a>
-                                        <a href = "#"class="footer-social__item relative js-open-social" data-network="tgRu">
+                                        <a href="#" class="footer-social__item relative js-open-social" data-network="tgRu">
                                             <img data-src-dark="https://rb-image.com/files/social/dark/social-tgchannel.svg" data-src-light="https://rb-image.com/files/social/light/social-tgchannel_light-theme.svg" src="img/social-tgchannel.svg">
                                         </a>
-                                        <a href = "#" class="footer-social__item relative js-open-social" data-network="facebook">
+                                        <a href="#" class="footer-social__item relative js-open-social" data-network="facebook">
                                             <img data-src-dark="https://rb-image.com/files/social/dark/social-fb.svg" data-src-light="https://rb-image.com/files/social/light/social-fb_light-theme.svg" src="img/social-fb.svg">
                                         </a>
-                                        <a href = "#" class="footer-social__item relative js-open-social" data-network="instagram">
+                                        <a href="#" class="footer-social__item relative js-open-social" data-network="instagram">
                                             <img data-src-dark="https://rb-image.com/files/social/dark/social-instagram.svg" data-src-light="https://rb-image.com/files/social/light/social-instagram_light-theme.svg" src="img/social-instagram.svg">
                                         </a>
                                     </div>
@@ -1475,18 +1512,6 @@
                                     <div class="flex__item">
                                         <div class="footer-description f-reg text-left text-ff">Сайт принадлежит и управляется <a href="#" name="www.layout.info.footer_copyright_info" class="js-modal-rules link">Riotech N.V.</a> </div>
                                     </div>
-                                    <div class="flex__item">
-                                        <div class="footer-check-wrap_span"><span class="color-A7">Классический дизайн</span>
-                                            <span>
-                                                <div class="checkbox">
-                                                    <label class="checkbox__label">
-                                                        <input class="checkbox__input js-to-old-version-checkbox" type="checkbox" checked=""><span class="checkbox__slider"></span>
-                                                    </label>
-                                                </div>
-                                            </span>
-                                            <span class="color-FF">Обновленный дизайн</span>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1496,9 +1521,9 @@
             </div>
         </div>
     </div>
-    <script src = "slider.js"></script>
-    <script src = "modile.js"></script>
-    <script src = "svg.js"></script>
+    <script src="slider.js"></script>
+    <script src="modile.js"></script>
+    <script src="svg.js"></script>
 </body>
 
 </html>

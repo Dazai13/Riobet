@@ -92,3 +92,39 @@ loadSVG('img/itemcoin3.svg', 'itemcoin3');
 loadSVG('img/helper.svg', 'helper');
 loadSVG('img/helper.svg', 'helper1');
 loadSVG('img/arrow.svg', 'arrownone');
+
+
+"use strict";
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Выбор элементов
+  const burgerBtn = document.querySelector(".header-menu");
+  const mobileMenu = document.querySelector(".js-right-sidebar");
+  const buttons = document.querySelectorAll(".button, .menu__item");
+
+  // Логика для бургер-меню
+  if (burgerBtn && mobileMenu) {
+    burgerBtn.addEventListener("click", () => {
+      burgerBtn.classList.toggle("_active");
+      mobileMenu.classList.toggle("_active");
+
+      // Переключение видимости меню
+      if (mobileMenu.classList.contains("_active")) {
+        mobileMenu.style.display = "block";
+      } else {
+        mobileMenu.style.display = "none";
+      }
+    });
+  }
+
+  // Обработка кликов по кнопкам и редирект
+  if (buttons) {
+    buttons.forEach((button) => {
+      button.addEventListener("click", (e) => {
+        e.preventDefault();
+        // Выполните ваш редирект здесь
+        window.location.href = "https://tracker.rioaffi.com/link?btag=61651111_345971";
+      });
+    });
+  }
+});

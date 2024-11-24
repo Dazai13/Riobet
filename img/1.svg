@@ -1,0 +1,5 @@
+<svg class="icon-header-menu" data-slotoshi="slotoshi-header-menu" data-flint="flint-header-menu" data-dark="header-menu">
+    <use xlink:href="#header-menu">
+        <symbol viewBox="0 0 24 24" id="header-menu" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1zm0-6a1 1 0 011-1h18a1 1 0 110 2H3a1 1 0 01-1-1zm0 12a1 1 0 011-1h9a1 1 0 110 2H3a1 1 0 01-1-1z"></path></symbol>
+    </use>
+</svg>

@@ -1,0 +1,5 @@
+<svg class="icon icon-play_button">
+    <use xlink:href="#play_button">
+        <symbol viewBox="0 0 46 51" id="play_button" xmlns="http://www.w3.org/2000/svg"><path d="M43.627 21.995c2.764 1.52 2.764 5.49 0 7.01L5.927 49.74C3.263 51.206 0 49.277 0 46.235V4.765C0 1.723 3.262-.206 5.928 1.26l37.7 20.735z"></path></symbol>
+    </use>
+</svg>

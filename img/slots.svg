@@ -1,0 +1,8 @@
+<svg class="icon icon-menu_icon" data-light="777" data-dark="menu_slots" data-slotoshi="slotoshi-menu_slots" data-flint="flint-menu_slots">
+    <use xlink:href="#menu_slots">
+        <symbol viewBox="0 0 2224 2130" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" id="menu_slots" xmlns="http://www.w3.org/2000/svg">
+            <path class="bafil0 bastr0" d="M93 1710h1706v415H93zM946 212h683C1507 70 1151-3 946 4 740-3 384 70 262 212h684zM4 314h1884v1290H4V314zm284 198h225c59 0 107 48 107 107v570c0 59-48 108-107 108H288c-59 0-107-49-107-108V619c0-59 48-107 107-107zm766 0H829c-59 0-108 48-108 107v570c0 59 49 108 108 108h225c59 0 107-49 107-108V619c0-59-48-107-107-107zm316 0h225c59 0 107 48 107 107v570c0 59-48 108-107 108h-225c-59 0-108-49-108-108V619c0-59 49-107 108-107zM315 1079c4-51 15-97 34-139 19-43 46-84 82-124H261v-87h279v77c-33 33-58 73-76 118-17 44-28 96-30 155H315zm541 0c4-51 15-97 34-139 19-43 46-84 82-124H801v-87h280v77c-33 33-59 73-76 118-18 44-28 96-31 155H856zm541 0c4-51 15-97 34-139 18-43 46-84 82-124h-171v-87h280v77c-33 33-59 73-76 118-18 44-28 96-31 155h-118z"></path>
+            <path class="bafil0 bastr0" d="M1860 946h73v157h160V831c-33-15-55-49-55-88 0-53 41-96 91-96s91 43 91 96c0 39-23 73-55 88v346l-232-2v133h-73V946z"></path>
+        </symbol>
+    </use>
+</svg>

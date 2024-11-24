@@ -1,0 +1,18 @@
+<svg class="icon">
+    <use xlink:href="#coin-eth">
+        <symbol fill="none" viewBox="0 0 25 24" id="coin-eth" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#bva)">
+                <path d="M12.399 8.878V0L5.042 12.222l7.357-3.344z" fill="#8891B1"></path>
+                <path d="M12.399 16.577V8.878l-7.357 3.344 7.357 4.355zm0-7.699l7.365 3.344L12.4 0v8.878z" fill="#63688E"></path>
+                <path d="M12.399 8.878v7.699l7.366-4.355-7.366-3.344z" fill="#464A75"></path>
+                <path d="M12.399 17.969l-7.357-4.346L12.399 24v-6.031z" fill="#8891B1"></path>
+                <path d="M19.764 13.623l-7.366 4.346V24l7.366-10.377z" fill="#63688E"></path>
+            </g>
+            <defs>
+                <clipPath id="bva">
+                    <path fill="#fff" transform="translate(.5)" d="M0 0h24v24H0z"></path>
+                </clipPath>
+            </defs>
+        </symbol>
+    </use>
+</svg>

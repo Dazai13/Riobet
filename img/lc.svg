@@ -1,0 +1,7 @@
+<svg class="icon icon-menu_live-casino" data-light="chips" data-dark="menu_live" data-slotoshi="slotoshi-menu_live" data-flint="flint-menu_live">
+    <use xlink:href="#menu_live">
+        <symbol viewBox="0 0 1855 1853" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" id="menu_live" xmlns="http://www.w3.org/2000/svg">
+            <path class="azfil0" d="M711 883c-61-59-99-98-240-82-17 2-70-24-80-48-2 66 82 255 320 130zm-44 383c44-7 94-40 123-24l18 10 18-10c28-16 79 17 122 24-100 78-181 78-281 0zm250-383c62-59 99-98 240-82 17 2 70-24 80-48 3 66-82 255-320 130zm533 89l382 258c24 16 30 49 14 73l-357 527c-16 24-48 30-72 14l-382-258c-24-16-30-49-14-73l357-527c16-24 49-30 72-14zm-279-3l130 51-342 505c-17 24-10 57 14 73l313 212-386-151c-27-11-40-41-29-68l232-593c11-26 41-40 68-29zm176 356l200-67 13 213-202 69-11-215zM47 1793C9 1425-203-26 742 0c385 11 629 314 542 757-285-76-300-363-301-335-8 318-600 305-656 338-5 3-35 513 429 705-61 1-130-2-167-10 5 143-23 258-46 326-156 15-305 3-496 12z"></path>
+        </symbol>
+    </use>
+</svg>
